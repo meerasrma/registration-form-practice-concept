@@ -1,0 +1,105 @@
+/* Write your CSS code here */
+.registration-form-application {
+  min-height: 100vh;
+  max-height: 100%;
+  min-width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registration-form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+.form-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #ea580c;
+  font-weight: 500;
+}
+.form-container {
+  margin-top: 50px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+  display: block;
+  margin-bottom: 3px;
+}
+.input {
+  background-color: #fef2f4;
+  font-size: 16px;
+  color: #9aa5b1;
+  outline: none;
+  border: 1px solid #ff0b37;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+.input-container {
+  margin-bottom: 25px;
+}
+.button {
+  color: #ffffff;
+  background-color: #ea580c;
+  border-radius: 8px;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+}
+.submit-button {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .submit-button {
+    width: 80px;
+  }
+}
+.error-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin: 0;
+}
+.submit-successfully-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+.success-image {
+  width: 60px;
+}
+.desc {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 25px;
+}
